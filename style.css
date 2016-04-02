@@ -1,0 +1,44 @@
+body {
+    font-size:16px;
+}
+div {
+    display: inline-block
+}
+
+h1 {
+    font-family: serif;
+    font-size: 3.5rem;  
+    padding-left: 2rem;
+    padding-top: .75rem;
+    margin-bottom: 0;
+    
+}
+
+p {
+    font-family: serif;
+    font-size: 1.3rem;
+    padding-left: 2.1rem;
+    line-height: 1;
+    margin-top: .5rem;
+    
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.right {
+    width: 50%;
+    float: right;
+}
+
+
