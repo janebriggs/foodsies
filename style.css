@@ -62,6 +62,8 @@ ul.photolist li {
     width: 100%;
 }
 
+/*created main container to have a space for gray hover.  Then put another span inside to vertically align text to gray hover.*/
+
 .main-container {
     position: absolute;
     margin: 0;
@@ -74,6 +76,8 @@ ul.photolist li {
     opacity: 0;
 }
 
+/*contains gray hover*/
+
 span.phototext {
     font-size: 2.2rem;
     color: white;
@@ -84,7 +88,11 @@ span.phototext {
     position: absolute;
     top: 50%;
     width: 100%;
+    transform: translateY(-50%);
+    /*to delete 50% space at bottom*/
 }
+
+/*contains text to go in gray hover*/ 
 
 span.phototext span {
     display: inline-block;
