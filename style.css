@@ -45,4 +45,55 @@ img {
     float: right;
 }
 
+ul.photolist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 0;
+    /*do I have to make line height 0 to get elements to touch?*/
+}
 
+ul.photolist li {
+    display: inline-block;
+    margin: 0 0 0 0;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.main-container {
+    position: absolute;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+}
+
+span.phototext {
+    font-size: 2.2rem;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+span.phototext span {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+
+ul.photolist li:hover .main-container {
+  opacity: 1;
+}
