@@ -72,6 +72,7 @@ ul.photolist li {
     left: 0;
     right: 0;
     width: 100%;
+    height: 100%;
     background: rgba(0,0,0,0.5);
     opacity: 0;
 }
@@ -88,7 +89,6 @@ span.phototext {
     position: absolute;
     top: 50%;
     width: 100%;
-    /*to delete 50% space at bottom*/
 }
 
 /*contains text to go in gray hover*/ 
@@ -103,4 +103,44 @@ span.phototext span {
 
 ul.photolist li:hover .main-container {
   opacity: 1;
+}
+
+#hover1 {
+    background-color: rgba(176, 65, 255, 0.3)
+}
+
+#hover2 {
+    background-color: rgba(255, 128, 64, 0.3)
+}
+
+#hover3 {
+    background-color: rgba(255, 248, 198, 0.3)
+}
+
+#hover4 {
+    background-color: rgba(176, 65, 255, 0.3)
+}
+
+#hover5 {
+    background-color: rgba(255, 128, 64, 0.3)
+}
+
+#hover6 {
+    background-color: rgba(255, 248, 198, 0.3)
+}
+
+#hover7 {
+    background-color: rgba(176, 65, 255, 0.3)
+}
+
+#hover8 {
+    background-color: rgba(255, 128, 64, 0.3)
+}
+
+#hover9 {
+    background-color: rgba(255, 248, 198, 0.3)
+}
+
+#hover10 {
+    background-color: rgba(176, 65, 255, 0.3)
 }
