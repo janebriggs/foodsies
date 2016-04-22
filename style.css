@@ -1,5 +1,6 @@
 body {
     font-size: 16px;
+    margin: 0;
 }
 
 div {
@@ -60,6 +61,7 @@ ul.staticphoto{
 .right {
     width: 50%;
     float: right;
+    position: inline-block;
 }
 
 ul.photolist {
@@ -68,7 +70,7 @@ ul.photolist {
     padding: 0;
     text-align: center;
     line-height: 0;
-    /*do I have to make line height 0 to get elements to touch?*/
+    /*how do I get rid of white space above and to the right without negative margins?*/
 }
 
 ul.photolist li {
@@ -92,7 +94,7 @@ ul.photolist li {
     height: 100%;
     background: rgba(0,0,0,0.5);
     opacity: 0;
-    border: ;
+    border-radius: 50%;
     /*how do I create a border?*/
 }
 
@@ -103,6 +105,8 @@ span.phototext {
     color: white;
     cursor: pointer;
     display: inline-block;
+    vertical-align: middle;
+    width: 100%;
     height: 50%;
     left: 0;
     position: absolute;
@@ -110,56 +114,18 @@ span.phototext {
     width: 100%;
 }
 
-/*contains text to go in gray hover*/ 
-
-span.phototext span {
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    width: 100%;
-    height: 100%;
-}
-
 ul.photolist li:hover .main-container {
   opacity: 1;
 }
 
-#hover1 {
+#hover1, #hover4, #hover7, #hover10, #hover13 {
     background-color: rgba(176, 65, 255, 0.3)
 }
 
-#hover2 {
+#hover2, #hover5, #hover8, #hover11, #hover14 {
     background-color: rgba(255, 128, 64, 0.3)
 }
 
-#hover3 {
+#hover3, #hover6, #hover9, #hover12, #hover15 {
     background-color: rgba(255, 248, 198, 0.3)
-}
-
-#hover4 {
-    background-color: rgba(176, 65, 255, 0.3)
-}
-
-#hover5 {
-    background-color: rgba(255, 128, 64, 0.3)
-}
-
-#hover6 {
-    background-color: rgba(255, 248, 198, 0.3)
-}
-
-#hover7 {
-    background-color: rgba(176, 65, 255, 0.3)
-}
-
-#hover8 {
-    background-color: rgba(255, 128, 64, 0.3)
-}
-
-#hover9 {
-    background-color: rgba(255, 248, 198, 0.3)
-}
-
-#hover10 {
-    background-color: rgba(176, 65, 255, 0.3)
 }
