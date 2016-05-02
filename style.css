@@ -75,6 +75,7 @@ ul.staticphoto{
     display: none;
     background-color: #FFFAFA;
     padding: 1rem;
+    font-size: 1.1rem;
 }
 
 .dropdown-content a {
