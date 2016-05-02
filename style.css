@@ -58,6 +58,36 @@ ul.staticphoto{
     border-radius: 50%;
 }
 
+.menu {
+    position: relative;
+    margin: 3rem;
+}
+
+.dropdown {
+    background-color: #FFFAFA;
+    color: #696969;
+    font-size: 1.3rem;
+    font-family: serif;
+    border: none;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #FFFAFA;
+    padding: 1rem;
+}
+
+.dropdown-content a {
+    padding: 1rem 1rem;
+    text-decoration: none;
+    color: #696969;
+    display: block;
+}
+
+.menu:hover .dropdown-content {
+    display: block;
+}
+
 .right {
     width: 50%;
     float: right;
@@ -81,8 +111,6 @@ ul.photolist li {
     width: 100%;
 }
 
-/*created main container to have a space for gray hover.  Then put another span inside to vertically align text to gray hover.*/
-
 .main-container {
     position: absolute;
     margin: 0;
@@ -95,10 +123,7 @@ ul.photolist li {
     background: rgba(0,0,0,0.5);
     opacity: 0;
     border-radius: 50%;
-    /*how do I create a border?*/
 }
-
-/*contains gray hover*/
 
 span.phototext {
     font-size: 2.2rem;
