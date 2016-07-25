@@ -33,7 +33,6 @@ img {
     height: auto;
 }
 
-
 .left {
     width: 50%;
     height: 100%;
@@ -41,6 +40,7 @@ img {
     top: 0;
     left: 0;
     background: #FFFAFA;
+    padding: 0;
 }
 
 ul.staticphoto{
@@ -89,18 +89,28 @@ ul.staticphoto{
     display: block;
 }
 
+.dropdown-content:hover a {
+    text-decoration: none;
+}
+
+/* underline link comes back when click on appetizers, away from it, then back to appetizers */
+
 .right {
     width: 50%;
+    height: 100%;
     float: right;
     position: inline-block;
+    padding: 0;
+    margin: 0;
 }
 
 ul.photolist {
     list-style-type: none;
-    margin: 0;
     padding: 0;
     text-align: center;
     line-height: 0;
+    width: 100%;
+    margin: 0;
     /*how do I get rid of white space above and to the right without negative margins?*/
 }
 
@@ -110,6 +120,7 @@ ul.photolist li {
     position: relative;
     height: 100%;
     width: 100%;
+    padding: 0;
 }
 
 .main-container {
@@ -137,7 +148,6 @@ span.phototext {
     left: 0;
     position: absolute;
     top: 50%;
-    width: 100%;
 }
 
 ul.photolist li:hover .main-container {
@@ -154,4 +164,32 @@ ul.photolist li:hover .main-container {
 
 #hover3, #hover6, #hover9, #hover12, #hover15, #hover18 {
     background-color: rgba(255, 248, 198, 0.3)
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-1"] {
+        width: 100%;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-2"] {
+        width: 100%;
+        position: relative;
+        
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*=".dropdown-content"] {
+        display: none;
+        background-color: #FFFAFA;
+        padding: 1rem;
+        font-size: 1.1rem;
+        text-decoration: none;
+    }
 }
