@@ -65,8 +65,8 @@ ul.staticphoto{
 
 .dropdown {
     background-color: #FFFAFA;
-    color: #696969;
-    font-size: 1.3rem;
+    color: #660033;
+    font-size: 1.8rem;
     font-family: serif;
     border: none;
 }
@@ -75,13 +75,13 @@ ul.staticphoto{
     display: none;
     background-color: #FFFAFA;
     padding: 1rem;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 .dropdown-content a {
     padding: 1rem 1rem;
     text-decoration: none;
-    color: #696969;
+    color: #99004d;
     display: block;
 }
 
@@ -154,15 +154,15 @@ ul.photolist li:hover .main-container {
   opacity: 1;
 }
 
-#hover1, #hover4, #hover7, #hover10, #hover13, #hover16 {
+#hover1, #hover4, #hover7, #hover10, #hover13, #hover16, #hover19 {
     background-color: rgba(176, 65, 255, 0.3)
 }
 
-#hover2, #hover5, #hover8, #hover11, #hover14, #hover17 {
+#hover2, #hover5, #hover8, #hover11, #hover14, #hover17, #hover20 {
     background-color: rgba(255, 128, 64, 0.3)
 }
 
-#hover3, #hover6, #hover9, #hover12, #hover15, #hover18 {
+#hover3, #hover6, #hover9, #hover12, #hover15, #hover18, #hover21 {
     background-color: rgba(255, 248, 198, 0.3)
 }
 
