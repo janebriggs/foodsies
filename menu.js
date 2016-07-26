@@ -10,7 +10,7 @@ $(document).ready(function() {
         primero.css("font-weight", "bold");
         $(".treat, .dinner").hide();
         $(".apps").show();
-        primero.css ("color", "#99004d");
+        primero.css ("color", "#424242");
         primero.siblings().css("font-weight", "normal");
         $("#Yum").css("font-weight", "normal");
         //gets only the siblings to change, not the element itself
@@ -20,7 +20,7 @@ $(document).ready(function() {
         segundo.css("font-weight", "bold");
         $(".treat, .apps").hide();
         $(".dinner").show();
-        segundo.css ("color", "#99004d");
+        segundo.css ("color", "#424242");
         segundo.siblings().css("font-weight", "normal");
         $("#Yum").css("font-weight", "normal");
     });
@@ -29,7 +29,7 @@ $(document).ready(function() {
         tercero.css("font-weight", "bold");
         $(".dinner, .apps").hide();
         $(".treat").show();
-        tercero.css ("color", "#99004d");
+        tercero.css ("color", "#424242");
         tercero.siblings().css("font-weight", "normal");
         $("#Yum").css("font-weight", "normal");
     });

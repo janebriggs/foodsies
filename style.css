@@ -8,20 +8,15 @@ div {
 }
 
 h1 {
-    font-family: serif;
-    font-size: 3.5rem;  
+    font-size: 2rem;
     text-align: center;
-    margin-bottom: 0;
-    color: #424242;
 }
+/*why is bootstrap affecting h1 font-size, etc?*/
 
-h2 {
-    text-align: center;
-}
 
 p {
     font-family: serif;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     text-align: center;
     line-height: 1;
     margin-top: .5rem;  
@@ -39,7 +34,7 @@ img {
     position: fixed;
     top: 0;
     left: 0;
-    background: #FFFAFA;
+    background: #fdfdfd;
     padding: 0;
 }
 
@@ -53,6 +48,7 @@ ul.staticphoto{
 }
 
 #circularphoto img {
+    margin-top: 1rem;
     width: 50%;
     height: 50%;
     border-radius: 50%;
@@ -65,15 +61,15 @@ ul.staticphoto{
 
 .dropdown {
     background-color: #FFFAFA;
-    color: #660033;
-    font-size: 1.8rem;
+    color: #424242;
+    font-size: 1.5rem;
     font-family: serif;
     border: none;
 }
 
 .dropdown-content {
     display: none;
-    background-color: #FFFAFA;
+    background-color: #fdfdfd;
     padding: 1rem;
     font-size: 1.2rem;
 }
@@ -81,8 +77,9 @@ ul.staticphoto{
 .dropdown-content a {
     padding: 1rem 1rem;
     text-decoration: none;
-    color: #99004d;
+    color: #424242;
     display: block;
+    font-family: serif;
 }
 
 .menu:hover .dropdown-content {
@@ -187,7 +184,7 @@ ul.photolist li:hover .main-container {
     /* For mobile phones: */
     [class*=".dropdown-content"] {
         display: none;
-        background-color: #FFFAFA;
+        background-color: #fdfdfd;
         padding: 1rem;
         font-size: 1.1rem;
         text-decoration: none;
